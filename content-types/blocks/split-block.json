@@ -1,6 +1,6 @@
 {
   "$schema":"http://json-schema.org/draft-04/schema#",
-  "id":"https://raw.githubusercontent.com/techiedarren/dc-examples/master/content-types/blocks/split-block.json",
+  "id":"https://raw.githubusercontent.com/elmikegonzalez/dc-examples/master/content-types/blocks/split-block.json",
 
   "title": "Split Block",
   "description": "splits a media item and it's editorial into two separate side by side blocks",
