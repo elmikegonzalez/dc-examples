@@ -24,15 +24,15 @@
               "contentType": {
                 "title": "",
                 "enum": [
-                  "https://raw.githubusercontent.com/techiedarren/dc-examples/master/content-types/blocks/image-block.json",
-                  "https://raw.githubusercontent.com/techiedarren/dc-examples/master/content-types/blocks/video-block.json",
-                  "https://raw.githubusercontent.com/techiedarren/dc-examples/master/content-types/blocks/text-block.json",
-                  "https://raw.githubusercontent.com/techiedarren/dc-examples/master/content-types/blocks/hero-block.json",
-                  "https://raw.githubusercontent.com/techiedarren/dc-examples/master/content-types/blocks/split-block.json",
-                  "https://raw.githubusercontent.com/techiedarren/dc-examples/master/content-types/containers/carousel.json",
-                  "https://raw.githubusercontent.com/techiedarren/dc-examples/master/content-types/containers/grid.json",
-                  "https://raw.githubusercontent.com/techiedarren/dc-examples/master/content-types/containers/stack.json",
-                  "http://dev-solutions.s3.amazonaws.com/DynamicContentTypes/res/simpleBanner/contentType/simple-banner.json"
+                  "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/master/content-types/blocks/image-block.json",
+                  "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/master/content-types/blocks/video-block.json",
+                  "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/master/content-types/blocks/text-block.json",
+                  "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/master/content-types/blocks/hero-block.json",
+                  "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/master/content-types/blocks/split-block.json",
+                  "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/master/content-types/containers/carousel.json",
+                  "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/master/content-types/containers/grid.json",
+                  "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/master/content-types/containers/stack.json",
+                  "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/master/content-types/simple-banner.json"
                 ]
               }
             }
