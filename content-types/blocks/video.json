@@ -1,0 +1,16 @@
+{
+  "$schema":"http://json-schema.org/draft-04/schema#",
+  "id":"https://raw.githubusercontent.com/elmikegonzalez/dc-examples/master/content-types/blocks/video-block.json",
+  "title":"Text Block",
+  "description":"A page block element that displays paragraph text",
+  "allOf":[
+    {
+      "$ref":"http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+  
+  "type": "object",
+  "properties": {
+
+  }
+}
