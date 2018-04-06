@@ -8,9 +8,9 @@
       "$ref":"http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  
+
   "type": "object",
   "properties": {
-
+    "video": { "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/video-link" }
   }
 }
