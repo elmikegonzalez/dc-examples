@@ -1,0 +1,43 @@
+{
+    "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+    "id": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/banners/image-banner-2.json",
+    "type": "object",
+    "title": "Image Banner 1",
+    "description": "Image banner with ability to add 5 text blocks that can be positioned using percentage offsets (top:50%,left:50%), the text colour is defined at block level, block cackground color can also be defined as wel as opacity",
+    "properties": {
+        "image": {
+            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+        },
+        "altText": {
+            "type": "string",
+            "title": "Main Image Alt Text",
+            "description": "Alt text for screen readers and improved SEO",
+            "format": "text"
+        },
+        "textBlocks": {
+            "type": "array",
+            "title": "Text blocks",
+            "description": "positioned text blocks",
+            "maxItems": 5,
+            "items": {
+                "$ref": "../component-libraries/text-content-type-library.json#/definitions/positioned-text-block"
+            }
+        },
+        "callToAction": {
+            "$ref": "../component-libraries/links-content-type-library.json#/definitions/relative-link"
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+        }
+    ],
+    "propertyOrder": [
+        "image",
+        "altText",
+        "lazyload",
+        "inset",
+        "textBlocks",
+        "callToAction"
+    ]
+}
