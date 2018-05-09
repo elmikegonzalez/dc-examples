@@ -1,0 +1,39 @@
+{
+    "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+    "type": "object",
+    "title": "Core type schema",
+    "description":"core content type components to build content types",
+    "id": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/positioning-content-type-library.json",
+    "definitions": {
+        "positioning-top-left": {
+            "type": "object",
+            "title": "POSITION",
+            "description": "position fields using % offset from top and left ",
+            "properties": {
+                "top": {
+                    "type": "number",
+                    "title": "Top %"
+                },
+                "left": {
+                    "type": "number",
+                    "title": "Left %"
+                }
+            }
+        },
+        "positioning-bottom-right": {
+            "type": "object",
+            "title": "POSITION",
+            "description": "position fields using % offset from bottom and right ",
+            "properties": {
+                "bottom": {
+                    "type": "number",
+                    "title": "Bottom %"
+                },
+                "right": {
+                    "type": "number",
+                    "title": "Right %"
+                }
+            }
+        }
+    }
+}

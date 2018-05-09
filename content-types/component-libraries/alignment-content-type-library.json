@@ -1,0 +1,38 @@
+{
+    "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+    "type": "object",
+    "title": "Core type schema for alignment",
+    "description":"core content type components to build content types",
+    "id":
+     "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/alignment-content-type-library.json",
+    "definitions": {
+        "v-align": {
+            "title": "Vertical Alignment",
+            "enum": [
+                "top",
+                "middle",
+                "bottom"
+            ]
+        },
+        "h-align": {
+            "title": "Horizontal Alignment",
+            "enum": [
+                "left",
+                "center",
+                "right"
+            ]
+        },
+        "alignment": {
+            "type": "object",
+            "title": "ALIGNMENT OPTIONS",
+            "properties": {
+                "h-align": {
+                    "$ref": "#/definitions/h-align"
+                },
+                "v-align": {
+                    "$ref": "#/definitions/v-align"
+                }
+            }
+        }
+    }
+}
