@@ -1,5 +1,5 @@
 {
-  "$schema":"http://json-schema.org/draft-04/schema#",
+  "$schema":"http://bigcontent.io/cms/schema/v1/schema#",
   "id":"https://raw.githubusercontent.com/elmikegonzalez/dc-examples/master/content-types/blocks/hero-block.json",
 
   "title": "Hero Panel",
