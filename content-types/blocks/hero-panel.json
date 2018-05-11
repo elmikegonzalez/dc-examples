@@ -25,7 +25,7 @@
             "contentType": {
               "title": "",
               "enum": [
-                "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/blocks/image-block.json"
+                "https://raw.githubusercontent.com/techiedarren/dc-examples/master/content-types/blocks/image-block.json"
               ]
             }
           }
