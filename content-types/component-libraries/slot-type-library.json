@@ -7,7 +7,7 @@
     "definitions": {
         "banners": {
             "type": "object",
-            "title": "CONTENT",
+            "title": "Content",
             "description": "",
             "properties": {
                 "content-type": {
@@ -45,7 +45,7 @@
         },
         "localized-banner": {
             "type": "object",
-            "title": "LOCALIZED CONTENT",
+            "title": "Localized Content",
             "description": "",
             "properties": {
                 "language": {
