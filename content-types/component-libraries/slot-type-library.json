@@ -22,7 +22,7 @@
                                     "enum": [
                                         "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/banners/image-banner-1.json",
                                         "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/banners/image-banner-2.json",
-                                        "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/blocks/hero-block.json",
+                                        "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/blocks/hero-panel.json",
                                         "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/blocks/image-block.json"
                                     ]
                                 }
