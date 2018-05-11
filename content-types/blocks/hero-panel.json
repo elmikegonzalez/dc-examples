@@ -1,6 +1,6 @@
 {
   "$schema":"http://bigcontent.io/cms/schema/v1/schema#",
-  "id":"https://raw.githubusercontent.com/elmikegonzalez/dc-examples/master/content-types/blocks/hero-block.json",
+  "id":"https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/blocks/hero-panel.json",
 
   "title": "Hero Panel",
   "description": "A page hero panel that acts as a slot for other content blocks",
@@ -25,7 +25,7 @@
             "contentType": {
               "title": "",
               "enum": [
-                "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/master/content-types/blocks/image-block.json"
+                "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/blocks/image-block.json"
               ]
             }
           }

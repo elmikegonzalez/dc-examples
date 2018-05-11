@@ -1,6 +1,6 @@
 {
   "$schema":"http://bigcontent.io/cms/schema/v1/schema#",
-  "id":"https://raw.githubusercontent.com/elmikegonzalez/dc-examples/master/content-types/blocks/image-block.json",
+  "id":"https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/blocks/image-block.json",
 
   "title":"Image Block",
   "description":"A page block element that can display an image, a text overlay and a call to action",
@@ -15,13 +15,13 @@
 
     "image": { "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link" },
 
-    "editorial": { "$ref": "../mixins/editorial.json#" },
+    "editorial": { "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/mixins/editorial.json" },
 
-    "aspectRatio": { "$ref": "../mixins/aspect-ratio.json#" },
+    "aspectRatio": { "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/mixins/aspect-ratio.json" },
 
     "mobileAspectRatio": {
       "allOf": [
-        { "$ref": "../mixins/aspect-ratio.json#" },
+        { "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/mixins/aspect-ratio.json" },
         {
           "title": "Mobile Aspect Ratio"
         }
