@@ -20,8 +20,6 @@
                                 "contentType": {
                                     "title": "",
                                     "enum": [
-                                        "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/banners/image-banner-1.json",
-                                        "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/banners/image-banner-2.json",
                                         "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/blocks/hero-panel.json",
                                         "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/blocks/image-block.json"
                                     ]
@@ -34,7 +32,7 @@
         },
         "segmented-banner": {
             "type": "object",
-            "title": "SEGMENTED CONTENT",
+            "title": "Segmented Content",
             "description": "",
             "properties": {
                 "segment": {
