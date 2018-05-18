@@ -3,12 +3,12 @@
     "id": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/slots/segmented-slot.json",
     "type": "object",
     "title": "Segmented Slot",
-    "description": "Slot excepts contentand a targeted segment",
+    "description": "Slot accepts a targeted segment",
     "properties": {
         "content-list": {
             "type": "array",
             "title": "Segmented content list",
-            "description": "add list content and their associated segements",
+            "description": "add content list and their associated segments",
             "maxItems": 5,
             "items":
                 {

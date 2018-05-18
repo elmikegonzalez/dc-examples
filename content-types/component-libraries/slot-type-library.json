@@ -36,7 +36,7 @@
             "description": "",
             "properties": {
                 "segment": {
-                    "$ref": "../component-libraries/segment-content-type-library.json#/definitions/customer-segment"
+                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/segment-content-type-library.json#/definitions/customer-segment"
                 },
                 "content": {
                     "$ref": "#/definitions/banners"
@@ -49,7 +49,7 @@
             "description": "",
             "properties": {
                 "language": {
-                    "$ref": "../component-libraries/locale-content-type-library.json#/definitions/language"
+                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/locale-content-type-library.json#/definitions/language"
                 },
                 "content": {
                     "$ref": "#/definitions/banners"
