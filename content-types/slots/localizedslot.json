@@ -12,7 +12,7 @@
             "maxItems": 5,
             "items":
                 {
-                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/slottype-library.json#/definitions/localized-banner"
+                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/slot-library.json#/definitions/localized-banner"
                 }
 
         }
