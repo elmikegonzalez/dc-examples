@@ -10,9 +10,9 @@
             "title": "locale",
             "enum": [
                 "en_US",
-                "en_GB"
+                "en_GB",
                 "fr_FR",
-                "fr_CA"
+                "fr_CA",
                 "de_GE",
                 "es_ES"
             ]
