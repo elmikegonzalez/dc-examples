@@ -6,31 +6,15 @@
     "description": "core content type components to build content types",
     "additionalProperties": false,
     "definitions": {
-        "language": {
-            "title": "language",
+        "locales": {
+            "title": "locale",
             "enum": [
-                "en",
-                "fr",
-                "de",
-                "es",
-                "it",
-                "zh",
-                "ja",
-                "ru"
-            ]
-        },
-        "country": {
-            "title": "country",
-            "enum": [
-                "us",
-                "gb",
-                "fr",
-                "de",
-                "be",
-                "es",
-                "cn",
-                "jp",
-                "ru"
+                "en_US",
+                "en_GB"
+                "fr_FR",
+                "fr_CA"
+                "de_GE",
+                "es_ES"
             ]
         }
     }
