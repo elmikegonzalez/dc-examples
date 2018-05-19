@@ -1,0 +1,70 @@
+{
+    "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+    "id": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/slottype-library.json",
+    "title": "Slot type schemas",
+    "description": "slot type components to build slots",
+    "allOf": [
+      {
+        "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+      }
+    ],
+    "type": "object",
+    "definitions": {
+        "banners": {
+            "title": "Content",
+            "description": "",
+            "type": "object",
+            "properties": {
+                "content-type": {
+                "title": "",
+                "description": "",
+                "type": "array",
+                "items":{
+                    "allOf": [
+                        {
+                            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+                        },
+                        {
+                            "properties": {
+                                "contentType": {
+                                    "title": "Block Types",
+                                    "enum":[
+                                        "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/blocks/image-block.json"
+                                      ]
+                                }
+                            }
+                        }
+                    ],
+                    "minItems": 1,
+                    "maxItems": 6
+                }
+            }
+        },
+        "segmented-banner": {
+          "title": "Segmented Content",
+          "description": "",
+          "type": "object",
+            "properties": {
+                "segment": {
+                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/segment-content-type-library.json#/definitions/customer-segment"
+                },
+                "content": {
+                    "$ref": "#/definitions/banners"
+                }
+            }
+        },
+        "localized-banner": {
+          "title": "Localized Content",
+          "description": "",
+          "type": "object",
+            "properties": {
+                "locale": {
+                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/locale-content-type-library.json#/definitions/locales"
+                },
+                "content": {
+                    "$ref": "#/definitions/banners"
+                }
+            }
+        }
+    }
+}

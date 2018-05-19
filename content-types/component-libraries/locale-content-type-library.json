@@ -2,12 +2,12 @@
     "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
     "id": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/locale-content-type-library.json",
     "type": "object",
-    "title": "Core type schema",
-    "description": "core content type components to build content types",
+    "title": "Locale content type",
+    "description": "",
     "additionalProperties": false,
     "definitions": {
         "locales": {
-            "title": "locale",
+            "title": "locales",
             "enum": [
                 "en_US",
                 "en_GB",

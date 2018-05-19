@@ -1,26 +1,24 @@
 {
     "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
     "id": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/slots/localizedsegmented-slot.json",
-    "type": "object",
     "title": "Segmented Slot",
     "description": "Slot accepts a targeted segment",
+    "allOf": [
+        {
+            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+        }
+    ],
+    "type": "object",
     "properties": {
         "content-list": {
             "type": "array",
             "title": "Segmented and Localized content list",
             "description": "add content list and their associated segments and locales",
-            "maxItems": 10,
             "items":
                 {
-                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/slot-type-library.json#/definitions/segmented-banner",
-                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/slot-type-library.json#/definitions/localized-banner"
-                }
-
+                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/slottype-library.json#/definitions/localized-banner"
+                },
+            "maxItems": 10
         }
-    },
-    "allOf": [
-        {
-            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
-        }
-    ]
+    }
 }
