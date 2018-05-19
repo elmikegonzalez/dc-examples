@@ -48,8 +48,7 @@
             "description": "",
             "properties": {
                 "language": {
-                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/locale-content-type-library.json#/definitions/language",
-                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/locale-content-type-library.json#/definitions/country"
+                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/locale-content-type-library.json#/definitions/locales"
                 },
                 "content": {
                     "$ref": "#/definitions/banners"
