@@ -20,7 +20,6 @@
                                 "contentType": {
                                     "title": "",
                                     "enum": [
-                                        "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/blocks/hero-panel.json",
                                         "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/blocks/image-block.json"
                                     ]
                                 }
@@ -49,7 +48,8 @@
             "description": "",
             "properties": {
                 "language": {
-                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/locale-content-type-library.json#/definitions/language"
+                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/locale-content-type-library.json#/definitions/language",
+                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/locale-content-type-library.json#/definitions/country"
                 },
                 "content": {
                     "$ref": "#/definitions/banners"
