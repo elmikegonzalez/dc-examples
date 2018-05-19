@@ -12,8 +12,7 @@
             "maxItems": 10,
             "items":
                 {
-                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/slot-type-library.json#/definitions/segmented-banner",
-                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/slot-type-library.json#/definitions/localized-banner"
+                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/component-libraries/slot-type-library.json"
                 }
 
         }
