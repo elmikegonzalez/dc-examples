@@ -20,7 +20,7 @@
                                 "contentType": {
                                     "title": "",
                                     "enum": [
-                                        "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/localization/content-types/blocks/image-block.json"
+                                        "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/master/content-types/blocks/image-block.json"
                                     ]
                                 }
                             }
