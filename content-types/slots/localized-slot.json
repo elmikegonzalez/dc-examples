@@ -1,0 +1,25 @@
+{
+    "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+    "id": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/localization/content-types/slots/localized-slot.json",
+    "title": "Localized Slot",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+        }
+    ],
+    "type": "object",
+    "properties": {
+        "content-list": {
+            "title": "Localized content list",
+            "type": "array",
+            "description": "add list content and their associated locales",
+            "maxItems": 5,
+            "items":
+                {
+                    "$ref": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/localization/content-types/component-libraries/slot-type-library.json#/definitions/localized-banner"
+                }
+
+        }
+    }
+}

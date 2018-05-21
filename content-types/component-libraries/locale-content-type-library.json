@@ -1,0 +1,20 @@
+{
+    "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+    "id": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/localization/content-types/component-libraries/locale-content-type-library.json",
+    "title": "Locale content type",
+    "description": "",
+    "type": "object",
+    "definitions": {
+        "locales": {
+            "title": "locales",
+            "enum": [
+                "en_US",
+                "en_GB",
+                "fr_FR",
+                "fr_CA",
+                "de_GE",
+                "es_ES"
+            ]
+        }
+    }
+}
