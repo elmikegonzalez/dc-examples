@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": " https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/banners/banner.json",
+  "id":"https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/banners/banner.json",
   "title": "Banner",
   "description": "A reusable content type for banner content",
   "allOf": [
