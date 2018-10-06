@@ -46,30 +46,26 @@
      }
     },
     "subheader": {
-      "type": "string",
-      "title": "Subheader",
-      "description": "Sub header text for the banner",
-      "validation": "Please enter less than 255 characters",
-      "allOf":[
-        {
-           "$ref":"http://bigcontent.io/cms/schema/v1/core#/definitions/localized-value"
-        }
-     ],
-     "properties":{
-        "values":{
-           "items":{
-              "properties":{
-                 "value":{
-                    "title": "Header",
-                    "description": "Header text for the banner",
-                    "type":"string",
-                    "minLength": 0,
-                    "maxLength": 255
-                 }
-              }
-           }
-        }
-     }
+      "allOf": [
+      {
+      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/localized-value"
+      }
+      ],
+      "properties":{
+         "values":{
+            "items":{
+               "properties":{
+                  "value":{
+                     "title": "Subheader",
+                     "description": "Sub header text for the banner",
+                     "type":"string",
+                     "minLength":0,
+                     "maxLength":255
+                  }
+               }
+            }
+         }
+      }
     },
     "description": {
       "type": "string",
@@ -103,7 +99,7 @@
     "hideBG": {
       "type": "boolean",
       "title": "Transparent Background",
-      "description": "Background overlay is transparent behind the banner text. Default is false"
+      "description": "Background is transparent behind the banner text. Default is false"
     },
     "stackMobileLayout": {
       "type": "boolean",
