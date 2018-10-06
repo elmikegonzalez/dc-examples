@@ -20,16 +20,6 @@
         }
       ]
     },
-    "contentImg": {
-      "type": "object",
-      "title": "Content Image",
-      "description": "The image to display with the textual content for this banner",
-      "allOf": [
-        {
-          "$ref": "https://raw.githubusercontent.com/neilmistryamplience/dc-example-website/willow/content-types/image.json"
-        }
-      ]
-    },
     "header": {
       "title": "Header",
       "description": "Header text for the banner",
@@ -123,19 +113,12 @@
       "type": "boolean",
       "title": "Stack Mobile Layout",
       "description": "Enable to allow banner text to stack underneath the image on small screens. Default is false"
-    },
-    "analyticsEventLabel": {
-      "type": "string",
-      "title": "Analytics Event Label",
-      "description": "Textual description of the campaign used to group analytics"
     }
   },
   "propertyOrder": [
     "img",
-    "contentImg",
     "header",
     "subheader",
-    "analyticsEventLabel",
     "description",
     "button",
     "alignment",
