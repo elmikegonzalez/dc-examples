@@ -16,7 +16,8 @@
       "description": "The background image for the banner",
       "allOf": [
         {
-          "$ref": "https://raw.githubusercontent.com/neilmistryamplience/dc-example-website/willow/content-types/image.json"
+          "$ref": "https://raw.githubusercontent.com/neilmistryamplience/dc-example-website/willow/content-types/image.json",
+           "$ref":"http://bigcontent.io/cms/schema/v1/core#/definitions/localized-value"
         }
       ]
     },
