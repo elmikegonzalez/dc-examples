@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "https://raw.githubusercontent.com/elmikegonzalez/dc-examples/development/content-types/banners/banner.json",
+  "id": "https://raw.githubusercontent.com/neilmistryamplience/dc-example-website/willow/content-types/banner.json",
   "title": "Banner",
   "description": "A reusable content type for banner content",
   "allOf": [
@@ -14,6 +14,16 @@
       "type": "object",
       "title": "Image",
       "description": "The background image for the banner",
+      "allOf": [
+        {
+          "$ref": "https://raw.githubusercontent.com/neilmistryamplience/dc-example-website/willow/content-types/image.json"
+        }
+      ]
+    },
+    "contentImg": {
+      "type": "object",
+      "title": "Content Image",
+      "description": "The image to display with the textual content for this banner",
       "allOf": [
         {
           "$ref": "https://raw.githubusercontent.com/neilmistryamplience/dc-example-website/willow/content-types/image.json"
@@ -114,10 +124,18 @@
       "title": "Stack Mobile Layout",
       "description": "Enable to allow banner text to stack underneath the image on small screens. Default is false"
     },
+    "analyticsEventLabel": {
+      "type": "string",
+      "title": "Analytics Event Label",
+      "description": "Textual description of the campaign used to group analytics"
+    }
+  },
   "propertyOrder": [
     "img",
+    "contentImg",
     "header",
     "subheader",
+    "analyticsEventLabel",
     "description",
     "button",
     "alignment",
@@ -125,5 +143,6 @@
     "percV",
     "style",
     "stackMobileLayout"
-  ]
+  ],
+  "required": ["analyticsEventLabel"]
 }
